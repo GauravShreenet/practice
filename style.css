@@ -17,12 +17,27 @@ nav {
     background: #000;
 }
 
-nav .menu {
+nav {
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+   
 }
 
 nav .menu li {
-    list-style: none;
-    display: inline;
-    margin-right: 1rem;
+    cursor: pointer;
+}
+
+nav .menu li:hover {
+    color: red;
+    /* transform: scale(1.3); */
+    transform: scale(1.3);
+    transition: all 0.5s;
 }
