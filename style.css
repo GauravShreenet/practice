@@ -55,3 +55,16 @@ nav .menu li:hover {
     transform: scale(1.3);
     transition: all 0.5s;
 }
+
+.hero > div {
+    position: absolute;
+    background: #ffffff5e;
+    left: 15rem;
+    top: 40rem;
+    height: 13rem;
+    width: 25rem;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
